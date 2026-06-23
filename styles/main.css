@@ -37,19 +37,22 @@
     font-size: regular;
     color: #474747;
 }
+
 .orange-background{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    /* border: 0px; */
+    
 }
 
 .hire-me{
     /* border: 1px solid red; */
-    background-color: #FD6E0A;
+    width: 150px;
+    height: 64px;
     justify-content: center;
     align-items: center;
     display: flex;
-    border-radius: 5px;
     font-weight: bold;
-    width: 150px;
-    height: 64px;
     color: #ffffff;
 }
 
@@ -81,14 +84,58 @@
 }
 .hero-first-section{
     border: 1px solid red;
+    width: 585px;
+    height: 356px;
+    
 }
 
+.first-line-hero{
+    font-family: "Open Sans", 'Times New Roman';
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.second-line-hero{
+    font-family: "Open Sans", 'Times New Roman';
+    font-weight: 700;
+    font-size: 85px;
+    
+}
+
+.third-line-hero{
+    font-family: "Open Sans", 'Times New Roman';
+    font-weight: 400;
+    font-size:18;
+    color: #757575 
+}
+
+
+
 .hero-second-section img{
-    width: 584px;
-    height: 676px;
+    width: 250 px;
+    height: 350px;
     border: 1px solid red;
 }
 
 
+.circle-background img {
+    width: 100%;
+    /* height: 100%; */
+}
 
+.download-cv{
+    border: 0px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 64px;
+    font-family: "Open Sans", 'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+}
 
+.circle-background img{
+    border: 1px solid red;
+    
+
+}
